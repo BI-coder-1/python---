@@ -33,4 +33,7 @@
 
 ## 快速开始
 
-（待补充）
+1. 激活虚拟环境: `.\.venv\Scripts\Activate.ps1`
+2. 安装依赖: `pip install -r requirements.txt`
+3. 运行 WAV 读取测试: `python test_load.py`
+   *注：`samples/` 目录下的测试音频来自公开水声数据集 ShipsEar (CC BY 4.0)。*
