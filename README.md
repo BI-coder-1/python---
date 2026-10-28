@@ -31,9 +31,15 @@
 - `docs/` 文档
 - `tests/` 测试
 
-## 快速开始
+#### 快速开始
 
 1. 激活虚拟环境: `.\.venv\Scripts\Activate.ps1`
 2. 安装依赖: `pip install -r requirements.txt`
 3. 运行 WAV 读取测试: `python test_load.py`
-   *注：`samples/` 目录下的测试音频来自公开水声数据集 ShipsEar (CC BY 4.0)。*
+4. 运行基础特征计算: `python test_features.py`
+
+## 已实现特征
+
+- 最小/最大幅值、峰值幅度
+- 平均值、平均绝对幅度
+- 总能量、平均能量、RMS
