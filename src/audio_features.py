@@ -1,5 +1,5 @@
 import numpy as np
-def extract_features(audio):
+def extract_basic_features(audio):
     """
     接受AudioSample对象，计算并返回包含各项基础时域的特征
     """
